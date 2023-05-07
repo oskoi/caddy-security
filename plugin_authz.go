@@ -23,11 +23,11 @@ import (
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp/caddyauth"
-	"github.com/greenpau/caddy-security/pkg/util"
-	"github.com/greenpau/go-authcrunch/pkg/authz"
-	"github.com/greenpau/go-authcrunch/pkg/errors"
-	"github.com/greenpau/go-authcrunch/pkg/requests"
-	addrutil "github.com/greenpau/go-authcrunch/pkg/util/addr"
+	"github.com/oskoi/caddy-security/pkg/util"
+	"github.com/oskoi/go-authcrunch/pkg/authz"
+	"github.com/oskoi/go-authcrunch/pkg/errors"
+	"github.com/oskoi/go-authcrunch/pkg/requests"
+	addrutil "github.com/oskoi/go-authcrunch/pkg/util/addr"
 )
 
 const (

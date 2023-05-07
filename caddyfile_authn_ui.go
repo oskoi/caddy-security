@@ -15,13 +15,14 @@
 package security
 
 import (
-	"github.com/caddyserver/caddy/v2"
-	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/greenpau/caddy-security/pkg/util"
-	"github.com/greenpau/go-authcrunch/pkg/authn"
-	"github.com/greenpau/go-authcrunch/pkg/authn/ui"
 	"io/ioutil"
 	"strings"
+
+	"github.com/caddyserver/caddy/v2"
+	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
+	"github.com/oskoi/caddy-security/pkg/util"
+	"github.com/oskoi/go-authcrunch/pkg/authn"
+	"github.com/oskoi/go-authcrunch/pkg/authn/ui"
 )
 
 func parseCaddyfileAuthPortalUI(h *caddyfile.Dispenser, repl *caddy.Replacer, portal *authn.PortalConfig, rootDirective string) error {

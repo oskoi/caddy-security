@@ -17,9 +17,9 @@ package security
 import (
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/greenpau/caddy-security/pkg/util"
-	"github.com/greenpau/go-authcrunch"
-	//"github.com/greenpau/go-authcrunch/pkg/errors"
+	"github.com/oskoi/caddy-security/pkg/util"
+	"github.com/oskoi/go-authcrunch"
+	//"github.com/oskoi/go-authcrunch/pkg/errors"
 	//"strconv"
 	//"strings"
 )
@@ -28,15 +28,14 @@ import (
 //
 // Syntax:
 //
-//   sso provider <name> {
-//     disabled
-//     entity_id <name>
-//     driver [aws]
-//     private key <path/to/pem/file>
-//     location https://url1/
-//     location https://url2/
-//   }
-//
+//	sso provider <name> {
+//	  disabled
+//	  entity_id <name>
+//	  driver [aws]
+//	  private key <path/to/pem/file>
+//	  location https://url1/
+//	  location https://url2/
+//	}
 func parseCaddyfileSingleSignOnProvider(d *caddyfile.Dispenser, repl *caddy.Replacer, cfg *authcrunch.Config) error {
 	var locations []string
 	var disabled bool

@@ -15,10 +15,11 @@
 package security
 
 import (
+	"strings"
+
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
-	"github.com/greenpau/go-authcrunch/pkg/authn"
-	"strings"
+	"github.com/oskoi/go-authcrunch/pkg/authn"
 )
 
 func parseCaddyfileAuthPortalMisc(h *caddyfile.Dispenser, repl *caddy.Replacer, portal *authn.PortalConfig, rootDirective, k string, args []string) error {

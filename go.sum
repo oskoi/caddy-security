@@ -203,6 +203,8 @@ github.com/gofrs/uuid v4.0.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRx
 github.com/golang-jwt/jwt/v4 v4.4.3/go.mod h1:m21LjoU+eqJr34lmDMbreY2eSTRJ1cv77w39/MY0Ch0=
 github.com/golang-jwt/jwt/v4 v4.5.0 h1:7cYmW1XlMY7h7ii7UhUyChSgS5wUJEnm9uZVTGqOWzg=
 github.com/golang-jwt/jwt/v4 v4.5.0/go.mod h1:m21LjoU+eqJr34lmDMbreY2eSTRJ1cv77w39/MY0Ch0=
+github.com/golang-jwt/jwt/v5 v5.0.0 h1:1n1XNM9hk7O9mnQoNBGolZvzebBQ7p93ULHRc28XJUE=
+github.com/golang-jwt/jwt/v5 v5.0.0/go.mod h1:pqrtFR0X4osieyHYxtmOUWsAWrfe1Q5UVIyoH402zdk=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
 github.com/golang/glog v1.0.0/go.mod h1:EWib/APOK0SL3dFbYqvxE3UYd8E6s1ouQ7iEp/0LWV4=
 github.com/golang/glog v1.1.1 h1:jxpi2eWoU84wbX9iIEyAeeoac3FLuifZpY9tcNUD9kw=
@@ -281,8 +283,8 @@ github.com/gorilla/context v0.0.0-20160226214623-1ea25387ff6f/go.mod h1:kBGZzfjB
 github.com/gorilla/mux v1.4.0/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
 github.com/greenpau/caddy-trace v1.1.11 h1:UnHjAHyvX3WklxynF8BThqniJD5vmw8c4pUwNGTTo08=
 github.com/greenpau/caddy-trace v1.1.11/go.mod h1:eoULUQ1k0zzwBVpq8V67C1PUEF64xeS6n8TBsRpXC8M=
-github.com/greenpau/go-authcrunch v1.0.40 h1:WCAP4n6mD80XYWuyKfrCF2OwfMMjiAckmuBQSPoCQyo=
-github.com/greenpau/go-authcrunch v1.0.40/go.mod h1:VTVSElvp8C9Xxs4d9c83qKyZi4VCUFqrzpD4nE7/5E4=
+github.com/oskoi/go-authcrunch v1.0.40 h1:WCAP4n6mD80XYWuyKfrCF2OwfMMjiAckmuBQSPoCQyo=
+github.com/oskoi/go-authcrunch v1.0.40/go.mod h1:VTVSElvp8C9Xxs4d9c83qKyZi4VCUFqrzpD4nE7/5E4=
 github.com/greenpau/versioned v1.0.28 h1:qgoZYy2bNbWAC5Bb0sVVfv/UHSac4PuCwdQMHpp/f6s=
 github.com/greenpau/versioned v1.0.28/go.mod h1:rtFCvaWWNbMH4CJnje/xicgmrM63j++rUh5juSu0k/A=
 github.com/groob/finalizer v0.0.0-20170707115354-4c2ed49aabda/go.mod h1:MyndkAZd5rUMdNogn35MWXBX1UiBigrU8eTj8DoAC2c=
@@ -430,6 +432,8 @@ github.com/mitchellh/reflectwalk v1.0.2/go.mod h1:mSTlrgnPZtwu0c4WaC2kGObEpuNDbx
 github.com/onsi/ginkgo/v2 v2.9.2 h1:BA2GMJOtfGAfagzYtrAlufIP0lq6QERkFmHLMLPwFSU=
 github.com/onsi/ginkgo/v2 v2.9.2/go.mod h1:WHcJJG2dIlcCqVfBAwUCrJxSPFb6v4azBwgxeMeDuts=
 github.com/onsi/gomega v1.27.4 h1:Z2AnStgsdSayCMDiCU42qIz+HLqEPcgiOCXjAU/w+8E=
+github.com/oskoi/go-authcrunch v0.0.0-20230507132804-8699e9fad3e5 h1:nSjDQoaOLfebQtljJ9i46duwQRQ+pCx0lfmxxLlo1Kc=
+github.com/oskoi/go-authcrunch v0.0.0-20230507132804-8699e9fad3e5/go.mod h1:N/N4bjKiKx9lXOTvY8t8r9KaIsox57RzU6MqnDthslA=
 github.com/pelletier/go-toml v1.2.0/go.mod h1:5z9KED0ma1S8pY6P1sdut58dfprrGBbd/94hg7ilaic=
 github.com/pkg/diff v0.0.0-20210226163009-20ebb0f2a09e/go.mod h1:pJLUxLENpZxwdsKMEsNbx1VGcRFpLqf3715MtcvvzbA=
 github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

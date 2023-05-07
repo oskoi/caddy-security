@@ -1,4 +1,4 @@
-module github.com/greenpau/caddy-security
+module github.com/oskoi/caddy-security
 
 go 1.19
 
@@ -7,7 +7,6 @@ require (
 	github.com/google/go-cmp v0.5.9
 	github.com/google/uuid v1.3.0
 	github.com/greenpau/caddy-trace v1.1.11
-	github.com/greenpau/go-authcrunch v1.0.40
 	go.uber.org/zap v1.24.0
 )
 
@@ -54,6 +53,7 @@ require (
 	github.com/go-sql-driver/mysql v1.7.0 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
+	github.com/golang-jwt/jwt/v5 v5.0.0 // indirect
 	github.com/golang/glog v1.1.1 // indirect
 	github.com/golang/mock v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
@@ -90,6 +90,7 @@ require (
 	github.com/mitchellh/go-ps v1.0.0 // indirect
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/onsi/ginkgo/v2 v2.9.2 // indirect
+	github.com/oskoi/go-authcrunch v0.0.0-20230507132804-8699e9fad3e5 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.14.0 // indirect
 	github.com/prometheus/client_model v0.3.0 // indirect

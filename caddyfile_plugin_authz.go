@@ -20,7 +20,7 @@ import (
 	"github.com/caddyserver/caddy/v2/caddyconfig/httpcaddyfile"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp/caddyauth"
-	"github.com/greenpau/caddy-security/pkg/util"
+	"github.com/oskoi/caddy-security/pkg/util"
 )
 
 func init() {
@@ -50,15 +50,14 @@ func getMiddlewareFromParseAuthzPluginCaddyfile(h httpcaddyfile.Helper) (caddyht
 //
 // Syntax:
 //
-//   authorize [<matcher>] with <policy_name>
+//	authorize [<matcher>] with <policy_name>
 //
 // Examples:
 //
-//   authorize with mypolicy
-//   authorize * with mypolicy
-//   authorize /* with mypolicy
-//   authorize /app* with mypolicy
-//
+//	authorize with mypolicy
+//	authorize * with mypolicy
+//	authorize /* with mypolicy
+//	authorize /app* with mypolicy
 func parseAuthzPluginCaddyfile(h httpcaddyfile.Helper) (map[string]string, error) {
 	var i int
 	repl := caddy.NewReplacer()

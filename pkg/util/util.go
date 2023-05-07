@@ -15,11 +15,12 @@
 package util
 
 import (
+	"net/http"
+
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/modules/caddyhttp"
 	"github.com/google/uuid"
-	"github.com/greenpau/go-authcrunch/pkg/util/cfg"
-	"net/http"
+	"github.com/oskoi/go-authcrunch/pkg/util/cfg"
 )
 
 // FindReplaceAll uses caddy.Replacer to replace strings in a given slice.
